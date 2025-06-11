@@ -4,7 +4,7 @@ A password generation desktop application built with **Electron**, **HTML**, **C
 
 ![screenshot](./Desktop/assets/screenshot.png)
 
-- - -
+---
 
 ## 📦 Features
 
@@ -12,7 +12,7 @@ A password generation desktop application built with **Electron**, **HTML**, **C
 
 - 📋 **Copy** the generated password and use it anywhere you need it
 
-- - -
+---
 
 ## 🚀 Getting Started
 
@@ -50,6 +50,30 @@ sudo dpkg -i passwordgen_1.0.0_amd64.deb
 You can also download the `.exe` file directly from the `Releases` page and then run it on your computer.
 
 ---
+
+# PasswordGen - Mobile📱
+
+A password generation mobile application built with **Cordova**, **HTML**, **CSS** and **Javascript**.
+
+![screenshot](./Mobile/assets/screenshot.jpg)
+
+---
+
+## 📦 Features
+
+- 🔄 **Generate** a eight-characters-long random password composed of ***alphabetical characters*** (*lowercase* and *uppercase*), ***digits***, and ***special characters***
+
+- 📋 **Copy** the generated password and use it anywhere you need it
+
+---
+
+## 🚀 Getting Started
+
+### Download from Releases
+
+You can download the `.apk` package directly from the `Releases` page and then install it on your mobile from your downloaded files directory.
+
+- The app will then appear among your applications with a "PG" icon (for PasswordGen).
 
 ---
 
