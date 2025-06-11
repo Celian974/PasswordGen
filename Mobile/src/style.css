@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 32px;
+    margin: 15px;
+}
+
+input {
+    color: black;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    pointer-events: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(167, 160, 160);
+    font-size: 13px;
+}
+
+.generate {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    background: black;
+    text-align: center;
+    width: 90px;
+    height: 22px;
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    user-select: none;
+}
+
+.copy {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    background: black;
+    text-align: center;
+    width: 90px;
+    height: 22px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    user-select: none;
+}
+
+#button:active {
+    transform: scale(0.96);
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+#copy-confirmation {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 9px;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+
+}
+
+#credits {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 8px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
