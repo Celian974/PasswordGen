@@ -44,7 +44,10 @@ You can download the `.deb` package directly from the `Releases` page and instal
 ```bash
 sudo dpkg -i passwordgen_1.0.0_amd64.deb
 ```
+
 - The app will then appear among your applications with a "PG" desktop icon (for PasswordGen).
+
+You can also download the `.exe` file directly from the `Releases` page and then run it on your computer.
 
 ---
 ## 🛠️ Technologies used
