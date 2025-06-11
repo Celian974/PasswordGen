@@ -1,1 +1,6 @@
 backup.txt
+linux-unpacked
+node_modules
+*.json
+*.yml
+*.yaml
