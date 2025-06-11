@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    user-select: none;
+}
+
+.box {
+    background: white;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    border-radius: 15px;
+}
+
+h2 {
+    color: black;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+input {
+    color: black;
+    font-size: 22px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    pointer-events: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(167, 160, 160);
+    font-size: 23px;
+}
+
+.generate {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    width: 128px;
+    height: 35px;
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    border: 2px solid white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 27px;
+}
+
+.copy {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    width: 128px;
+    height: 35px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    border: 2px solid white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27px;
+    user-select: none;
+}
+
+#button:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+#button:active {
+    transform: scale(0.96);
+}
+
+#copy-confirmation {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
