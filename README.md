@@ -2,6 +2,8 @@
 
 A password generation desktop application built with **Electron**, **HTML**, **CSS** and **Javascript**.
 
+![screenshot](./Desktop/assets/screenshot.png)
+
 - - -
 
 ## 📦 Features
